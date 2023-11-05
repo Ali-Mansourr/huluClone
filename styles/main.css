@@ -1,12 +1,15 @@
+/* navigation */
 nav {
   display: flex;
   justify-content: space-between;
   padding: 1rem 2.5rem;
   align-items: center;
 }
+
 nav img {
     width: 4rem;
 }
+
 nav button{
     color: #a8afbd;
     background-color: transparent;
@@ -14,14 +17,15 @@ nav button{
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
+
 nav button:hover{
     color: white;
-    background-color:#323843 ;
-    
+    background-color:#323843 ; 
 }
+
+/* header section */
 .header {
   background-image: url(../assets/main.jpeg);
   width: 100%;
@@ -41,7 +45,6 @@ main{
     justify-content: center;  
     align-items: center;
     height: 100%;
-    
     color: white; 
     /* border: solid; */
 }
@@ -68,7 +71,6 @@ main{
     font-weight: 600;
     letter-spacing: .6px;
     line-height: 1;
-
     text-transform: uppercase;
     color: #00ED82;
 }
@@ -87,7 +89,6 @@ main{
     line-height: 1.24;
     text-transform: none;
     margin-top: 16px;
-    
 }
 
 .container a{
@@ -119,6 +120,7 @@ main{
     opacity: 0.85;
 }
 
+/* start building section */
 .start-building{
     background: linear-gradient(180deg, #29A869 0.66%, #16181D 99.34%);
     text-align: center;
@@ -149,7 +151,6 @@ main{
     line-height: 3;
     transition: all 0.3s;
     font-size: 14px;
-
 }
 
 .start-building-btn:hover{
@@ -163,18 +164,15 @@ main{
     font-weight: 600;
     letter-spacing: .6px;
     line-height: 1;
-
     text-transform: uppercase;
     color: #00ED82;
     margin: 1rem 0;
-
 }
 
 .all-plans-container{
     color: white;
     text-align: center;
     padding-bottom: 90px;
-
 }
 
 .all-plans-titles{
@@ -228,8 +226,7 @@ main{
     width: 100%;
     border-radius: 10px;
     padding: 0.2rem;
-    opacity: 0.7;
-    
+    opacity: 0.7; 
 }
 
 .category-card-text{
@@ -325,15 +322,15 @@ main{
 }
 
 .mini-image-container{
-    width: 50px; /* Adjust the size as needed */
+    width: 50px; 
     height: 50px;
-    margin: 10px; /* Adjust the spacing between images */
+    margin: 10px; 
     background: white;
-    border-radius: 50%; /* Creates a circular shape */
+    border-radius: 50%; 
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* Hides any content outside the circle */
+    overflow: hidden; 
 }
 
 footer{
@@ -360,7 +357,6 @@ footer{
     width: 100%;
     margin: 0 auto;
     /* border: 1px solid blue; */
-
 }
 
 .link-subcontainer p {
@@ -368,7 +364,6 @@ footer{
     padding: 0 32px 8px 0;
     font-size: 14px;
     margin-right: 25px;
-
 }
 
 
@@ -377,9 +372,7 @@ footer{
     flex-direction: column;
     justify-content: flex-start;
     margin: 0 auto;
-
     /* border: 1px solid green; */
-
 }
 
 .links-divider > p{
@@ -396,7 +389,6 @@ footer{
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    /* margin-left: 100px; */
     margin-top: 20px;
 }
 .social-media img{
